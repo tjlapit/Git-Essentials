@@ -1,0 +1,154 @@
+.section {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-bottom: 0ch;
+  }
+  .fill-form {
+      padding-left: 10px; 
+      padding-right: 30px; 
+      border-radius: 8px;
+      /* text-align: center;
+      align-items: center; */
+      border-color: #7018d4;
+      width: 800px;
+      
+  
+  }
+  .date-control{
+      height: 40px;
+      background-color: rgb(255, 255, 255);
+  }
+#textInput{
+width: 600px;
+}
+ 
+  .todo {
+      padding-top: 30px;
+      padding-left: 0px;
+      padding-right: 10px;
+      text-align: center;
+      align-items: center;
+    }
+    .header {
+      color:blue;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
+    .container {
+       display: flex;
+       flex-direction: row;
+       margin-inline: auto;
+       /* padding-right: 80px; */
+       border-left: 3px solid rgb(70, 0, 128);
+       /* border-right: 3px solid rgb(55, 0, 128); */
+    
+    }
+  
+  .tasks {
+     text-align: center; 
+     border-right: 2px solid rgb(55, 0, 128);
+     border-left: 2px solid rgb(55, 0, 128);
+     width: 600px;
+  }
+  .task-list{
+      display: flex;
+      flex-direction: column;
+      padding-top: 0px;
+      background-color:#d39aea;
+      margin: 5px;
+      border-radius: 8px;
+      list-style: none;
+  }
+  .completed{
+      text-align: center;
+      align-items: center;
+      border-radius: 8px;
+      width: 600px;
+      margin-bottom: 5px;
+  }
+  .tasks-complete{
+      width: 600px;
+  }
+  #tasks2{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    width: 30vw;
+  }
+  .modal-btn {
+    background: #d41818;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+  .add-btn{
+    background-color: #522e80;
+    padding: 20px 30px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+  }
+  .btn-delete{
+    background-color: #6918d4;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+  
+  }
+  .text-body input{
+    width: 300px;
+  }
+  .title-text{
+      font-size: 25px;
+      font-weight: bolder;
+      color: #6918d4;
+    }
+    tasks-title{
+      color: #522e80;
+    }
+    .modal-title{
+      color: #542e80;
+      font-weight: bolder;
+      font-size: large;
+    }
+  .msg{
+      color: #7018d4; 
+  }
+  #tasks div .options {
+      justify-self: center;
+      display: flex;
+      gap: 20px;
+    }
+    .date-text{
+      font-size: large;;
+      margin-top: 20px;
+    }
+    @media (min-width: 480px) {
+      .container{
+
+      }
+      .fill-form {
+        padding: 20px;
+        margin-right: 5px;
+        width: 25vw;
+        border-radius: 5px;
+        font-family: sans-serif;
+        top: 50px;
+        border: #582e80 solid 5px;
+      }
+      #descriptionArea {
+        width: 300px;
+        height: 100px;
+      }
+      #textInput{
+        width: 300px;
+        height: 40px;
+      }
+      #dataInput{
+        width: 100%;
+      }
+    }
+    
